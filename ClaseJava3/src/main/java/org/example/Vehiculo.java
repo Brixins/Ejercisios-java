@@ -1,0 +1,11 @@
+package org.example;
+
+
+    public abstract class Vehiculo {
+        // Métodos abstractos:
+        // declaran, no implementan
+        public abstract void arrancar();
+        public abstract void detener();
+        public abstract void combustible();
+    }
+
