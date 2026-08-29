@@ -12,6 +12,6 @@ public class Bicicleta extends Vehiculo{
     }
     @Override
     public void combustible(){
-        System.out.println("No tiene combustible");
+        System.out.println("La cicla no usa combustible");
     }
 }

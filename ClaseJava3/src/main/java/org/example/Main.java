@@ -4,10 +4,10 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Vehiculo auto = new Carro();
-        Vehiculo moto = new Moto();
-        Vehiculo bicicleta = new Bicicleta();
-        Vehiculo[] vehiculo = new Vehiculo[] {auto,moto,bicicleta};
+        Vehiculo[] vehiculo = {
+                new Carro(),
+                new Moto(),
+                new Bicicleta()};
         Viaje viaje = new Viaje();
 
 

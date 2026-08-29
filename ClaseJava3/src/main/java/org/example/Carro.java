@@ -11,6 +11,6 @@ public class Carro extends Vehiculo {
     }
     @Override
     public void combustible(){
-        System.out.println("El carro ha gastado");
+        System.out.println("El carro ha gastado combustible");
     }
 }
