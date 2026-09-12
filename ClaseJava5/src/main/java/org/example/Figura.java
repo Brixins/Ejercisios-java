@@ -1,6 +1,6 @@
 package org.example;
 
 public abstract class Figura {
-    public abstract void area();
-    public abstract void perimetro();
+    public abstract double area();
+    public abstract double perimetro();
 }

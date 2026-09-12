@@ -1,18 +1,24 @@
 package org.example;
 
 public class Circulo extends Figura implements Dibujar {
-    @Override
-    public void area(){
-        double pi = 3.14 * 3.14;
+    private double radio;
+
+    public Circulo(double radio) {
+        this.radio = radio;
     }
 
     @Override
-    public void perimetro() {
+    public double area(){
+        return Math.PI * radio * radio;
+    }
 
+    @Override
+    public double perimetro() {
+        return 2 * Math.PI * radio;
     }
 
     @Override
     public void Dibujar() {
-
+        System.out.println("Dibujando un Circulo de radio"+ radio);
     }
 }
