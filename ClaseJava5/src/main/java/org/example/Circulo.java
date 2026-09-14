@@ -7,6 +7,10 @@ public class Circulo extends Figura implements Dibujar {
         this.radio = radio;
     }
 
+    public void setRadio(double radio) {
+        this.radio = radio;
+    }
+
     @Override
     public double area(){
         return Math.PI * radio * radio;
@@ -19,6 +23,6 @@ public class Circulo extends Figura implements Dibujar {
 
     @Override
     public void Dibujar() {
-        System.out.println("Dibujando un Circulo de radio"+ radio);
+        System.out.println("Dibujando un Circulo de radio "+ radio);
     }
 }

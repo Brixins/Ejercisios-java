@@ -9,13 +9,25 @@ public class Rectangulo extends Figura implements Dibujar {
         this.altura = altura;
     }
 
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    public void setBase(double base) {
+        this.base = base;
+    }
+
     @Override
     public double area() {
         return base * altura;
     }
     @Override
     public double perimetro() {
+
         return base + base + altura + altura;
+    }
+    public void Dibujar() {
+        System.out.println("Dibujando un rectangulo de base " + base + "\nY altura " + altura);
     }
 
 }
